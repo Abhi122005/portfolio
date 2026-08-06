@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek D. | AI Agents & Automation</title>
+<meta name="description" content="Abhishek D. builds AI agents and automation systems that execute real tasks. Open to internships in AI/automation engineering.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abhishek D. | AI Agents & Automation">
+<meta property="og:description" content="Building AI agents and automation pipelines that execute real tasks.">
+<meta property="og:image" content="https://abhi122005.github.io/portfolio/profile.jpg">
+<meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="trace-line" aria-hidden="true"><div class="trace-pulse"></div></div>
+
+<header>
+  <nav class="wrap" id="mainNav">
+    <a class="logo" href="#top"><span class="dot"></span><span id="logoText">ABHISHEK.D</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="navlinks" id="navLinks"></div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="wrap hero-content">
+      <img class="hero-avatar stagger" id="heroAvatar" src="" alt="">
+      <div class="eyebrow stagger" id="heroEyebrow"></div><br>
+      <span class="avail-badge stagger" id="heroAvail"></span>
+      <h1 class="stagger" id="heroHeadline"></h1>
+      <p class="sub stagger" id="heroSub"></p>
+      <div class="hero-ctas stagger">
+        <a class="btn" id="ctaPrimary" href="#projects">View Work →</a>
+        <a class="btn btn-outline" id="ctaSecondary" href="#contact">Get in Touch</a>
+      </div>
+      <div class="socials stagger" id="heroSocials"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="section-label">about_me</div>
+          <h2>$ whoami</h2>
+        </div>
+      </div>
+      <div class="about-grid fade-up">
+        <div class="about-bio" id="aboutBio"></div>
+        <dl class="about-facts" id="aboutFacts"></dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="section-label">selected_work</div>
+          <h2>Agents in the field</h2>
+        </div>
+      </div>
+      <div class="filter-chips fade-up" id="filterChips"></div>
+      <div class="projects fade-up" id="projectsList"></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div class="section-label">core_capabilities</div>
+        <h2>Toolkit</h2>
+      </div>
+      <div class="skill-groups fade-up" id="skillGroups"></div>
+    </div>
+  </section>
+
+  <section id="path">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div class="section-label">commit_log</div>
+        <h2>How I got here</h2>
+      </div>
+      <div class="timeline fade-up" id="timelineList"></div>
+    </div>
+  </section>
+
+  <section id="achievements" hidden>
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div class="section-label">achievements</div>
+        <h2>Recognition</h2>
+      </div>
+      <div class="achv-grid fade-up" id="achvGrid"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-grid fade-up">
+        <div class="contact-intro">
+          <div class="prompt-line">&gt; initiate_contact()</div>
+          <h3 id="contactHeading"></h3>
+          <p id="contactBody"></p>
+          <div class="contact-alt">
+            <a id="contactEmail" href="#"></a>
+            <a id="contactLinkedIn" href="#" target="_blank" rel="noopener">Connect on LinkedIn →</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" required></textarea>
+          </div>
+          <div class="form-msg" id="formMsg"></div>
+          <button class="btn" type="submit" id="formSubmit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Abhishek D. — AI Systems Builder</footer>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
